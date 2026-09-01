@@ -1,398 +1,854 @@
 # 🚀 DSA Practice Roadmap — LeetCode + GFG
 
-> A personal interview-preparation roadmap.
-> Goal: build strong DSA fundamentals, solve consistently, and keep every solution in GitHub.
+> A personal DSA roadmap for building strong problem-solving skills,
+> preparing for coding interviews, and maintaining consistent practice.
+
+---
+
+## 🎯 Goals
+
+- Build strong DSA fundamentals
+- Solve problems consistently
+- Understand patterns instead of memorizing solutions
+- Practice using both LeetCode and GeeksforGeeks
+- Improve coding speed and problem-solving ability
+- Be able to explain the approach and time/space complexity
+
+---
 
 ## 📊 Progress
 
 | Stage | Target | Status |
-|---|---:|---|
-| 🌱 Foundation | 25 problems | ☐ |
-| 🔥 Building | 50 problems | ☐ |
-| 💪 Interview Ready | 100 problems | ☐ |
-| 🚀 Strong | 150 problems | ☐ |
-| 🏆 Advanced | 200+ problems | ☐ |
+|---|---:|:---:|
+| 🌱 Foundation | 25 problems | ⬜ |
+| 🔥 Building | 50 problems | ⬜ |
+| 💪 Interview Ready | 100 problems | ⬜ |
+| 🚀 Strong | 150 problems | ⬜ |
+| 🏆 Advanced | 200+ problems | ⬜ |
 
-**Rule:** Mark a problem `☑` only after you can explain the approach and complexity yourself.
+**Rule:** Mark a problem complete only when you can explain the
+approach, code, and complexity without copying the solution.
 
 ---
 
-# 1. Arrays
+# 1. 🧱 Programming Foundations
 
-## 🟢 Easy
-- [ ] Find largest element
-- [ ] Find second largest element
+Before starting advanced DSA, be comfortable with:
+
+- [ ] Variables and data types
+- [ ] Input / Output
+- [ ] Conditional statements
+- [ ] Loops
+- [ ] Functions
+- [ ] Arrays
+- [ ] Strings
+- [ ] Pointers / References
+- [ ] Recursion basics
+- [ ] Basic STL / Collections
+- [ ] Time complexity
+- [ ] Space complexity
+
+### Complexity
+
+- [ ] O(1)
+- [ ] O(log n)
+- [ ] O(n)
+- [ ] O(n log n)
+- [ ] O(n²)
+- [ ] O(2ⁿ)
+
+---
+
+# 2. 📦 Arrays
+
+### Basics
+
+- [ ] Traversing an array
+- [ ] Finding maximum and minimum
 - [ ] Reverse an array
+- [ ] Find second largest element
+- [ ] Remove duplicates
 - [ ] Check if array is sorted
-- [ ] Remove duplicates from sorted array
-- [ ] Move zeroes to the end
-- [ ] Find missing number
-- [ ] Find single number
+- [ ] Rotate array
+- [ ] Move zeroes
+- [ ] Linear search
+- [ ] Frequency counting
 
-## 🟡 Medium
+### Important Problems
+
 - [ ] Two Sum
 - [ ] Best Time to Buy and Sell Stock
 - [ ] Maximum Subarray
-- [ ] Rotate Array
-- [ ] Merge Sorted Array
 - [ ] Majority Element
-- [ ] Sort 0s, 1s and 2s
-- [ ] Merge Overlapping Intervals
-- [ ] Product of Array Except Self
-
-## 🔴 Hard
-- [ ] Trapping Rain Water
-- [ ] Maximum Product Subarray
-- [ ] First Missing Positive
-
-**Practice:** LeetCode + GFG Arrays
-
----
-
-# 2. Hashing
-
-## 🟢 Easy
-- [ ] Count frequencies
-- [ ] Find duplicates
-- [ ] Find first non-repeating element
-- [ ] Valid Anagram
-
-## 🟡 Medium
-- [ ] Two Sum using HashMap
+- [ ] Missing Number
+- [ ] Find the Duplicate Number
+- [ ] Rearrange Array Elements by Sign
+- [ ] Sort an Array of 0s, 1s and 2s
+- [ ] Merge Sorted Arrays
+- [ ] Next Permutation
+- [ ] Leaders in an Array
 - [ ] Longest Consecutive Sequence
-- [ ] Subarray Sum Equals K
-- [ ] Longest Subarray with Given Sum
-- [ ] Group Anagrams
 
-## 🔴 Hard
-- [ ] Count subarrays with given XOR
-- [ ] Longest consecutive sequence — optimized approach
+### Matrix
 
----
-
-# 3. Two Pointers & Sliding Window
-
-## 🟢 Easy
-- [ ] Two Sum in sorted array
-- [ ] Remove duplicates using two pointers
-- [ ] Move zeroes using two pointers
-
-## 🟡 Medium
-- [ ] Longest Substring Without Repeating Characters
-- [ ] Maximum Sum Subarray of Size K
-- [ ] Longest Repeating Character Replacement
-- [ ] Minimum Size Subarray Sum
-- [ ] Container With Most Water
-- [ ] 3Sum
-
-## 🔴 Hard
-- [ ] Minimum Window Substring
-- [ ] Sliding Window Maximum
-- [ ] Trapping Rain Water — two pointers
+- [ ] Matrix traversal
+- [ ] Transpose Matrix
+- [ ] Rotate Matrix
+- [ ] Spiral Matrix
+- [ ] Set Matrix Zeroes
+- [ ] Search in a Matrix
+- [ ] Pascal's Triangle
 
 ---
 
-# 4. Strings
+# 3. 🔤 Strings
 
-## 🟢 Easy
-- [ ] Reverse String
-- [ ] Valid Palindrome
-- [ ] Count character frequency
-- [ ] Longest Common Prefix
+### Basics
+
+- [ ] Reverse a String
+- [ ] Check Palindrome
+- [ ] Count characters
+- [ ] Remove duplicate characters
+- [ ] Character frequency
+- [ ] Convert case
+- [ ] Check Anagram
+
+### Important Problems
+
 - [ ] Valid Anagram
-
-## 🟡 Medium
+- [ ] Valid Palindrome
+- [ ] Longest Common Prefix
+- [ ] Reverse Words in a String
+- [ ] First Unique Character
+- [ ] Longest Substring Without Repeating Characters
 - [ ] String Compression
 - [ ] Group Anagrams
 - [ ] Longest Palindromic Substring
-- [ ] Longest Common Subsequence
-- [ ] Decode String
-
-## 🔴 Hard
-- [ ] Minimum Window Substring
-- [ ] Regular Expression Matching
 
 ---
 
-# 5. Binary Search
+# 4. 🔎 Searching
 
-## 🟢 Easy
+### Linear Search
+
+- [ ] Basic linear search
+- [ ] Search in unsorted array
+- [ ] Find first occurrence
+- [ ] Find last occurrence
+
+### Binary Search
+
 - [ ] Binary Search
+- [ ] Lower Bound
+- [ ] Upper Bound
 - [ ] Search Insert Position
 - [ ] First and Last Position
-- [ ] Count Occurrences
-- [ ] Square Root
-
-## 🟡 Medium
 - [ ] Search in Rotated Sorted Array
 - [ ] Find Minimum in Rotated Sorted Array
 - [ ] Find Peak Element
+- [ ] Square Root
 - [ ] Koko Eating Bananas
 - [ ] Capacity to Ship Packages
-- [ ] Find Minimum in Rotated Sorted Array II
-
-## 🔴 Hard
-- [ ] Median of Two Sorted Arrays
-- [ ] Split Array Largest Sum
 - [ ] Aggressive Cows
+- [ ] Allocate Books
+- [ ] Median of Two Sorted Arrays
 
 ---
 
-# 6. Linked List
+# 5. 🔢 Sorting
 
-## 🟢 Easy
-- [ ] Traverse a linked list
-- [ ] Insert a node
-- [ ] Delete a node
+### Basic Sorting
+
+- [ ] Bubble Sort
+- [ ] Selection Sort
+- [ ] Insertion Sort
+
+### Efficient Sorting
+
+- [ ] Merge Sort
+- [ ] Quick Sort
+- [ ] Heap Sort
+
+### Practice
+
+- [ ] Sort an Array
+- [ ] Sort Colors
+- [ ] Merge Intervals
+- [ ] Largest Number
+- [ ] Kth Largest Element
+
+---
+
+# 6. 🧮 Hashing
+
+- [ ] HashMap / unordered_map
+- [ ] HashSet / unordered_set
+- [ ] Frequency counting
+- [ ] Duplicate detection
+- [ ] Prefix sum + hashing
+
+### Problems
+
+- [ ] Two Sum
+- [ ] Four Sum
+- [ ] Longest Consecutive Sequence
+- [ ] Subarray Sum Equals K
+- [ ] Longest Subarray with Sum K
+- [ ] Count Subarrays with XOR K
+- [ ] Longest Substring Without Repeating Characters
+- [ ] Isomorphic Strings
+- [ ] Happy Number
+
+---
+
+# 7. 🔗 Linked List
+
+### Basics
+
+- [ ] Create a Linked List
+- [ ] Insert Node
+- [ ] Delete Node
+- [ ] Traverse Linked List
+- [ ] Find Length
+- [ ] Search Element
 - [ ] Reverse Linked List
-- [ ] Middle of Linked List
-- [ ] Merge Two Sorted Lists
+- [ ] Find Middle Node
 
-## 🟡 Medium
+### Important Problems
+
+- [ ] Reverse Linked List
+- [ ] Middle of the Linked List
+- [ ] Detect Cycle
+- [ ] Remove Cycle
+- [ ] Merge Two Sorted Lists
 - [ ] Remove Nth Node From End
-- [ ] Linked List Cycle
 - [ ] Palindrome Linked List
 - [ ] Intersection of Two Linked Lists
 - [ ] Add Two Numbers
-- [ ] Odd Even Linked List
+- [ ] Sort Linked List
+- [ ] Rotate Linked List
+- [ ] Reverse Nodes in K Group
 
-## 🔴 Hard
-- [ ] Reverse Nodes in K-Group
-- [ ] Copy List with Random Pointer
-- [ ] Merge K Sorted Lists
+### Doubly Linked List
+
+- [ ] Create DLL
+- [ ] Insert at beginning
+- [ ] Insert at end
+- [ ] Delete node
+- [ ] Reverse DLL
 
 ---
 
-# 7. Stack & Queue
+# 8. 📚 Stack
 
-## 🟢 Easy
-- [ ] Implement Stack using Array
-- [ ] Implement Queue using Array
+### Concepts
+
+- [ ] Stack using Array
+- [ ] Stack using Linked List
+- [ ] Push
+- [ ] Pop
+- [ ] Peek
+- [ ] isEmpty
+
+### Problems
+
 - [ ] Valid Parentheses
-- [ ] Implement Stack using Queues
-- [ ] Implement Queue using Stacks
-
-## 🟡 Medium
 - [ ] Min Stack
+- [ ] Implement Stack Using Queues
 - [ ] Next Greater Element
-- [ ] Daily Temperatures
+- [ ] Previous Greater Element
+- [ ] Next Smaller Element
+- [ ] Previous Smaller Element
 - [ ] Stock Span
-- [ ] Evaluate Reverse Polish Notation
-- [ ] Simplify Path
-
-## 🔴 Hard
 - [ ] Largest Rectangle in Histogram
-- [ ] Maximal Rectangle
-- [ ] Sliding Window Maximum
+- [ ] Asteroid Collision
 
 ---
 
-# 8. Recursion & Backtracking
+# 9. 🚶 Queue
 
-## 🟢 Easy
-- [ ] Factorial using recursion
-- [ ] Fibonacci using recursion
-- [ ] Sum of array recursively
-- [ ] Reverse array recursively
-- [ ] Generate binary strings
+### Basics
 
-## 🟡 Medium
+- [ ] Queue using Array
+- [ ] Queue using Linked List
+- [ ] Circular Queue
+- [ ] Deque
+- [ ] Priority Queue
+
+### Problems
+
+- [ ] Implement Queue Using Stacks
+- [ ] Number of Recent Calls
+- [ ] Sliding Window Maximum
+- [ ] First Negative Number in Every Window
+- [ ] Rotten Oranges
+
+---
+
+# 10. 🪃 Recursion
+
+### Basics
+
+- [ ] Understand recursion
+- [ ] Base condition
+- [ ] Recursive call
+- [ ] Stack memory
+- [ ] Trace recursive calls
+
+### Practice
+
+- [ ] Factorial
+- [ ] Fibonacci
+- [ ] Sum of N numbers
+- [ ] Reverse a Number
+- [ ] Reverse a String
+- [ ] Check Palindrome
+- [ ] Power Function
+- [ ] Generate Subsequences
 - [ ] Generate Subsets
-- [ ] Generate Permutations
-- [ ] Combination Sum
-- [ ] Letter Combinations of Phone Number
-- [ ] Palindrome Partitioning
 
-## 🔴 Hard
+---
+
+# 11. 🔙 Backtracking
+
+- [ ] Recursion + Backtracking concept
+- [ ] Subsets
+- [ ] Subsets II
+- [ ] Permutations
+- [ ] Combination Sum
+- [ ] Combination Sum II
+- [ ] Letter Combinations
+- [ ] Generate Parentheses
 - [ ] N-Queens
 - [ ] Sudoku Solver
+- [ ] Rat in a Maze
 - [ ] Word Search
 
 ---
 
-# 9. Binary Trees
+# 12. 🌳 Binary Tree
 
-## 🟢 Easy
-- [ ] Inorder Traversal
-- [ ] Preorder Traversal
-- [ ] Postorder Traversal
-- [ ] Level Order Traversal
+### Basics
+
+- [ ] Create Binary Tree
+- [ ] Tree Traversal
+- [ ] Preorder
+- [ ] Inorder
+- [ ] Postorder
+- [ ] Level Order
+- [ ] Height of Tree
+- [ ] Count Nodes
+- [ ] Count Leaf Nodes
+
+### Important Problems
+
 - [ ] Maximum Depth
 - [ ] Same Tree
 - [ ] Symmetric Tree
-
-## 🟡 Medium
-- [ ] Check Balanced Binary Tree
+- [ ] Invert Binary Tree
 - [ ] Diameter of Binary Tree
+- [ ] Balanced Binary Tree
+- [ ] Path Sum
+- [ ] Maximum Path Sum
 - [ ] Zigzag Level Order
 - [ ] Boundary Traversal
+- [ ] Vertical Order Traversal
 - [ ] Lowest Common Ancestor
-- [ ] Right Side View
-- [ ] Path Sum
-
-## 🔴 Hard
-- [ ] Serialize and Deserialize Binary Tree
-- [ ] Binary Tree Maximum Path Sum
-- [ ] Flatten Binary Tree to Linked List
 
 ---
 
-# 10. Binary Search Tree
+# 13. 🌲 Binary Search Tree
 
-## 🟢 Easy
+- [ ] BST properties
 - [ ] Search in BST
-- [ ] Insert into BST
-- [ ] Find Minimum in BST
-- [ ] Find Maximum in BST
-
-## 🟡 Medium
+- [ ] Insert in BST
+- [ ] Delete from BST
+- [ ] Minimum in BST
+- [ ] Maximum in BST
 - [ ] Validate BST
-- [ ] Delete Node in BST
 - [ ] Kth Smallest Element
-- [ ] Lowest Common Ancestor in BST
-- [ ] Construct BST from Preorder
-- [ ] Inorder Successor
-
-## 🔴 Hard
-- [ ] Recover Binary Search Tree
-- [ ] Merge Two BSTs
-
----
-
-# 11. Heap / Priority Queue
-
-## 🟢 Foundation
-- [ ] Implement Min Heap
-- [ ] Implement Max Heap
-- [ ] Heapify an array
-
-## 🟡 Medium
 - [ ] Kth Largest Element
-- [ ] Kth Smallest Element
-- [ ] Top K Frequent Elements
-- [ ] K Closest Points
-- [ ] Find Median from Data Stream
-- [ ] Merge K Sorted Arrays
-
-## 🔴 Hard
-- [ ] Merge K Sorted Lists
-- [ ] Sliding Window Maximum using Heap
+- [ ] Lowest Common Ancestor
+- [ ] Convert Sorted Array to BST
+- [ ] Two Sum in BST
 
 ---
 
-# 12. Greedy
+# 14. 🕸️ Graphs
 
-## 🟢 Easy
-- [ ] Assign Cookies
-- [ ] Lemonade Change
-- [ ] Best Time to Buy and Sell Stock
+### Basics
 
-## 🟡 Medium
-- [ ] Fractional Knapsack
-- [ ] Activity Selection
-- [ ] Job Sequencing
-- [ ] Jump Game
-- [ ] Gas Station
-- [ ] Minimum Platforms
-- [ ] Partition Labels
+- [ ] Graph terminology
+- [ ] Directed Graph
+- [ ] Undirected Graph
+- [ ] Weighted Graph
+- [ ] Adjacency Matrix
+- [ ] Adjacency List
 
-## 🔴 Hard
-- [ ] Candy
-- [ ] Jump Game II
+### Traversal
 
----
-
-# 13. Graphs
-
-## 🟢 Foundation
-- [ ] Build adjacency matrix
-- [ ] Build adjacency list
-- [ ] BFS traversal
-- [ ] DFS traversal
-- [ ] Count connected components
-
-## 🟡 Medium
+- [ ] BFS
+- [ ] DFS
+- [ ] Connected Components
 - [ ] Number of Islands
 - [ ] Flood Fill
-- [ ] Detect Cycle in Undirected Graph
-- [ ] Detect Cycle in Directed Graph
-- [ ] Bipartite Graph
-- [ ] Topological Sort
-- [ ] Course Schedule
-- [ ] Shortest Path in Unweighted Graph
-- [ ] Number of Provinces
 
-## 🔴 Advanced
+### Cycle Detection
+
+- [ ] Cycle in Undirected Graph
+- [ ] Cycle in Directed Graph
+
+### Topological Sorting
+
+- [ ] Kahn's Algorithm
+- [ ] DFS Topological Sort
+- [ ] Course Schedule
+- [ ] Course Schedule II
+
+### Shortest Path
+
+- [ ] BFS Shortest Path
 - [ ] Dijkstra's Algorithm
 - [ ] Bellman-Ford
 - [ ] Floyd-Warshall
-- [ ] Prim's MST
-- [ ] Kruskal's MST
+
+### Minimum Spanning Tree
+
+- [ ] Prim's Algorithm
+- [ ] Kruskal's Algorithm
 - [ ] Disjoint Set Union
-- [ ] Bridges in Graph
-- [ ] Articulation Points
 
 ---
 
-# 14. Dynamic Programming
+# 15. ⛰️ Heap / Priority Queue
 
-## 🟢 Foundation
-- [ ] Fibonacci DP
+### Concepts
+
+- [ ] Min Heap
+- [ ] Max Heap
+- [ ] Insert
+- [ ] Delete
+- [ ] Heapify
+- [ ] Build Heap
+- [ ] Priority Queue
+
+### Problems
+
+- [ ] Kth Largest Element
+- [ ] Kth Smallest Element
+- [ ] Top K Frequent Elements
+- [ ] Merge K Sorted Lists
+- [ ] Find Median from Data Stream
+- [ ] K Closest Points to Origin
+- [ ] Task Scheduler
+
+---
+
+# 16. 🧠 Greedy Algorithms
+
+- [ ] Activity Selection
+- [ ] Fractional Knapsack
+- [ ] Job Sequencing
+- [ ] Assign Cookies
+- [ ] Jump Game
+- [ ] Jump Game II
+- [ ] Gas Station
+- [ ] Minimum Platforms
+- [ ] Merge Intervals
+- [ ] Non-overlapping Intervals
+- [ ] Candy
+
+---
+
+# 17. 💰 Dynamic Programming
+
+### Introduction
+
+- [ ] Understand overlapping subproblems
+- [ ] Understand optimal substructure
+- [ ] Memoization
+- [ ] Tabulation
+- [ ] Space optimization
+
+### 1D DP
+
+- [ ] Fibonacci
 - [ ] Climbing Stairs
 - [ ] House Robber
-- [ ] Min Cost Climbing Stairs
+- [ ] Frog Jump
+- [ ] Maximum Sum of Non-Adjacent Elements
 
-## 🟡 Medium
-- [ ] 0/1 Knapsack
-- [ ] Coin Change
-- [ ] Subset Sum
-- [ ] Partition Equal Subset Sum
-- [ ] Longest Common Subsequence
-- [ ] Longest Increasing Subsequence
+### 2D DP
+
 - [ ] Unique Paths
 - [ ] Minimum Path Sum
-- [ ] Decode Ways
+- [ ] Triangle
+- [ ] Grid Problems
 
-## 🔴 Advanced
+### Knapsack
+
+- [ ] 0/1 Knapsack
+- [ ] Unbounded Knapsack
+- [ ] Subset Sum
+- [ ] Partition Equal Subset Sum
+- [ ] Coin Change
+- [ ] Target Sum
+
+### String DP
+
+- [ ] Longest Common Subsequence
+- [ ] Longest Common Substring
 - [ ] Edit Distance
-- [ ] Matrix Chain Multiplication
-- [ ] Palindrome Partitioning II
+- [ ] Longest Palindromic Subsequence
 - [ ] Distinct Subsequences
-- [ ] Burst Balloons
 
 ---
 
-# 15. Trie
+# 18. 🧩 Bit Manipulation
 
-## 🟢 Foundation
-- [ ] Implement Trie
+### Basics
+
+- [ ] Binary representation
+- [ ] AND
+- [ ] OR
+- [ ] XOR
+- [ ] NOT
+- [ ] Left Shift
+- [ ] Right Shift
+
+### Problems
+
+- [ ] Single Number
+- [ ] Missing Number
+- [ ] Number of 1 Bits
+- [ ] Power of Two
+- [ ] Counting Bits
+- [ ] Subsets Using Bits
+- [ ] XOR Queries
+
+---
+
+# 19. 🧵 Trie
+
+- [ ] Trie structure
 - [ ] Insert word
 - [ ] Search word
-- [ ] Search prefix
-
-## 🟡 Medium
+- [ ] Starts With
+- [ ] Delete word
 - [ ] Word Dictionary
-- [ ] Replace Words
-- [ ] Word Search II
-
-## 🔴 Advanced
-- [ ] Maximum XOR Pair
-- [ ] Maximum XOR With an Element From Array
+- [ ] Word Search
+- [ ] Maximum XOR
 
 ---
 
-# 🧠 For Every Problem
+# 20. 📐 Advanced Algorithms
 
-After solving, record:
+Learn these after completing the core topics:
 
-- **Approach:**
-- **Time:**
-- **Space:**
-- **Language:** C / C++ / Java
-- **Solution file:**
+- [ ] Disjoint Set Union
+- [ ] Segment Tree
+- [ ] Fenwick Tree
+- [ ] Advanced Graph Algorithms
+- [ ] Strongly Connected Components
+- [ ] Bridges
+- [ ] Articulation Points
+- [ ] Advanced Dynamic Programming
+- [ ] Advanced String Algorithms
 
-Example:
+---
 
-```text
-Arrays/
-└── TwoSum.java
+# 21. 🧪 Problem-Solving Pattern Practice
+
+Instead of solving random problems, identify the pattern.
+
+### Pattern Checklist
+
+- [ ] Two Pointers
+- [ ] Sliding Window
+- [ ] Prefix Sum
+- [ ] Hashing
+- [ ] Binary Search
+- [ ] Fast and Slow Pointers
+- [ ] Merge Intervals
+- [ ] Monotonic Stack
+- [ ] BFS
+- [ ] DFS
+- [ ] Backtracking
+- [ ] Greedy
+- [ ] Heap
+- [ ] Dynamic Programming
+- [ ] Bit Manipulation
+- [ ] Divide and Conquer
+
+---
+
+# 22. 🏆 Practice Levels
+
+## Level 1 — Foundation
+
+Target: 25 problems
+
+Focus:
+
+- Arrays
+- Strings
+- Searching
+- Sorting
+- Hashing
+- Basic Linked List
+
+Status: ⬜
+
+---
+
+## Level 2 — Building
+
+Target: 50 problems
+
+Focus:
+
+- Stack
+- Queue
+- Recursion
+- Binary Search
+- Trees
+- Two Pointers
+- Sliding Window
+
+Status: ⬜
+
+---
+
+## Level 3 — Interview Ready
+
+Target: 100 problems
+
+Focus:
+
+- Trees
+- BST
+- Graphs
+- Heap
+- Greedy
+- Backtracking
+- Dynamic Programming
+
+Status: ⬜
+
+---
+
+## Level 4 — Strong
+
+Target: 150 problems
+
+Focus:
+
+- Medium problems
+- Advanced patterns
+- Mixed-topic practice
+- Timed contests
+- Interview-style questions
+
+Status: ⬜
+
+---
+
+## Level 5 — Advanced
+
+Target: 200+ problems
+
+Focus:
+
+- Hard problems
+- Advanced DP
+- Advanced Graphs
+- Complex data structures
+- Competitive programming
+
+Status: ⬜
+
+---
+
+# 23. 📅 Weekly Practice Plan
+
+| Day | Practice |
+|---|---|
+| Monday | Learn concept + 2 problems |
+| Tuesday | 2–3 problems |
+| Wednesday | Concept revision + 2 problems |
+| Thursday | 2–3 problems |
+| Friday | Mixed problems |
+| Saturday | Contest / timed practice |
+| Sunday | Revision + revisit mistakes |
+
+---
+
+# 24. 📝 Problem-Solving Method
+
+For every problem:
+
+1. Read the problem carefully.
+2. Understand the input and output.
+3. Try a brute-force solution.
+4. Check the constraints.
+5. Find a better approach.
+6. Identify the DSA pattern.
+7. Write the code yourself.
+8. Test edge cases.
+9. Analyze time complexity.
+10. Analyze space complexity.
+11. Write a short note about the mistake/idea.
+
+---
+
+# 25. 🔁 Revision System
+
+A problem should be revisited if you:
+
+- [ ] Could not solve it
+- [ ] Needed the solution
+- [ ] Forgot the approach
+- [ ] Made a major coding mistake
+- [ ] Cannot explain the complexity
+
+### Revision Schedule
+
+- First revision → after 1 day
+- Second revision → after 1 week
+- Third revision → after 1 month
+
+---
+
+# 26. 🧾 Problem Record
+
+Use this format for important problems:
+
+### Problem
+
+**Name:**  
+**Platform:** LeetCode / GFG  
+**Topic:**  
+**Difficulty:** Easy / Medium / Hard  
+
+**Approach:**
+
+> Write the idea in your own words.
+
+**Time Complexity:** O(?)  
+
+**Space Complexity:** O(?)  
+
+**Key Learning:**
+
+> What did I learn from this problem?
+
+---
+
+# 27. 📈 Personal Progress Tracker
+
+| Topic | Problems Solved | Target | Status |
+|---|---:|---:|:---:|
+| Arrays | 0 | 15 | ⬜ |
+| Strings | 0 | 10 | ⬜ |
+| Searching | 0 | 10 | ⬜ |
+| Sorting | 0 | 8 | ⬜ |
+| Hashing | 0 | 10 | ⬜ |
+| Linked List | 0 | 15 | ⬜ |
+| Stack | 0 | 10 | ⬜ |
+| Queue | 0 | 8 | ⬜ |
+| Recursion | 0 | 10 | ⬜ |
+| Backtracking | 0 | 8 | ⬜ |
+| Trees | 0 | 20 | ⬜ |
+| BST | 0 | 10 | ⬜ |
+| Graphs | 0 | 20 | ⬜ |
+| Heap | 0 | 10 | ⬜ |
+| Greedy | 0 | 10 | ⬜ |
+| DP | 0 | 20 | ⬜ |
+| Bit Manipulation | 0 | 8 | ⬜ |
+| Trie | 0 | 5 | ⬜ |
+
+---
+
+# 28. 💻 Platforms
+
+### LeetCode
+
+Use for:
+
+- Interview-style problems
+- Pattern recognition
+- Difficulty progression
+- Contests
+
+### GeeksforGeeks
+
+Use for:
+
+- Concept learning
+- Topic-wise practice
+- Algorithm explanations
+- Additional problems
+
+### Rule
+
+Do not try to finish every problem from every platform.
+
+Focus on **understanding patterns and solving quality problems**.
+
+---
+
+# 29. ⭐ My Rules
+
+- [ ] Don't copy solutions immediately.
+- [ ] Try for at least 20–30 minutes first.
+- [ ] Understand the solution before coding it.
+- [ ] Rewrite copied solutions yourself.
+- [ ] Record important mistakes.
+- [ ] Revise old problems.
+- [ ] Practice consistently.
+- [ ] Focus on understanding rather than problem count.
+- [ ] Learn the pattern behind each problem.
+- [ ] Be able to explain my solution in an interview.
+
+---
+
+# 🎯 Final Target
+
+My goal is not just to collect solved problems.
+
+My goal is to become capable of:
+
+> **Understanding → Planning → Coding → Testing → Optimizing → Explaining**
+
+### Long-Term Target
+
+**200+ quality DSA problems**
+
+with strong understanding of:
+
+- Arrays
+- Strings
+- Hashing
+- Linked Lists
+- Stack & Queue
+- Recursion
+- Backtracking
+- Trees
+- BST
+- Graphs
+- Heap
+- Greedy
+- Dynamic Programming
+- Bit Manipulation
+- Advanced Data Structures
+
+---
+
+## 🚀 Consistency > Quantity
+
+> Solve one problem today.
+> Understand it completely.
+> Come back tomorrow.
+> Keep improving.
+
+**This repository is my DSA practice journey.**
