@@ -39,7 +39,7 @@ Before starting advanced DSA, be comfortable with:
 - [ ] Input / Output
 - [ ] Conditional statements
 - [ ] Loops
-- [ ] Functions
+- [ *] Functions
 - [ ] Arrays
 - [ ] Strings
 - [ ] Pointers / References
